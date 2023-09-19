@@ -1,0 +1,23 @@
+{
+  "name": "api_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.131.0",
+    "@aws-sdk/credential-provider-node": "^3.131.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "node-dev": "^7.4.2",
+    "nodemailer": "^6.7.7"
+  }
+}
